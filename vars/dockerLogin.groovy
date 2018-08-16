@@ -1,5 +1,11 @@
+/**
+ *
+ * Simple login script for Docker
+ * @param credid
+ * @return
+ */
 def call(String credid) {
-    if (credid == null){
+    if (credid == null) {
         credid = 'docker_creds'
     }
 
