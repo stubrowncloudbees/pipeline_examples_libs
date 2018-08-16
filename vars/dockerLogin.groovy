@@ -1,5 +1,10 @@
 def call(String credid) {
 
+
+    if (credid == null){
+        credid = 'stu123'
+    }
+
     echo "logging in using ${credid}"
 
 
