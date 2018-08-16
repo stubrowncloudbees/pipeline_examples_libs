@@ -2,7 +2,7 @@ def call(String credid) {
 
 
     if (credid == null){
-        credid = 'stu123'
+        credid = 'docker_creds'
     }
 
     echo "logging in using ${credid}"
