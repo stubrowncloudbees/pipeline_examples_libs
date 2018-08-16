@@ -1,6 +1,6 @@
 def call(String credid) {
 
-    echo "stu"
+    echo "logging in using ${credid}"
 
 
     withCredentials([usernamePassword(credentialsId: credid, passwordVariable: 'dpassword', usernameVariable: 'duser')]) {
